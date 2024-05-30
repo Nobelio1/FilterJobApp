@@ -8,7 +8,7 @@ export const Header = () => {
 
   return (
     <>
-      <header className="w-full bg-header bg-header-color bg-center h-36"></header>
+      <header className="w-full bg-header-color bg-center bg-header h-36"></header>
       {activeFilter.length > 0 ? (
         <div className="flex justify-center">
           <div className="w-5/6 bg-white relative -top-10 rounded-md py-6 px-8 shadow flex justify-between">
