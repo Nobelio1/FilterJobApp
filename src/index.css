@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "League Spartan", sans-serif;
+  background-color: hsl(180, 52%, 96%);
+}
+
+.bg-mobile {
+  background-image: url(./assets/images/bg-header-mobile.svg);
+}
+
+.bg-desktop {
+  background-image: url(./assets/images/bg-header-desktop.svg);
+}
+
+.bg-header-color {
+  background-color: hsl(180, 29%, 50%);
+}
+
+.divider-min {
+  height: 0.5px;
+}
