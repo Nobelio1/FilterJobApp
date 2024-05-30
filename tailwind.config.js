@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        header: "url(./assets/images/bg-header-mobile.svg)",
+        header: "url(./img/bg-header-mobile.svg)",
       },
     },
   },

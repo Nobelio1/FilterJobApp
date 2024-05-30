@@ -24,7 +24,7 @@ export const JobCard = ({ job }: JobCardProps) => {
             <div className="mr-3 absolute -top-12 z-20 md:relative md:top-0 ">
               <div className="w-10 md:w-20">
                 <img
-                  src={`../../src/assets/images/${job.name}.svg`}
+                  src={`./img/${job.name.toLowerCase()}.svg`}
                   alt="logo-job"
                   className="object-contain"
                 />
